@@ -1,95 +1,78 @@
-body, html{
-  height:100%;
-  margin:0;
-  font-size:16px;
-  font-family:"Lato", sans-serif;
-  font-weight:400;
-  line-height:1.8em;
-  color:#666;
-  background-color: #b6f8ef;
+.body,.html {
+    height: 100%;
+    margin: 0;
+    font-size: 16px;
+    font-family: "Lato", sans-serif;
+    font-weight: 400;
+    line-height: 1.8em;
+    color: #666;
+    background-color: #b6f8ef;
 }
-
 .topnav {
-  overflow: hidden;
-  background-color: #333;
+    overflow: hidden;
+    background-color: #333;
 }
-
 .topnav a {
-  display: inline;
-  color: #1affa3;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
+    display:inline;
+    color: #1affa3;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
 }
-
 .topnav a:hover {
-  background-color: #111;
+    background-color: #111;
 }
-
 .pimg1, .pimg2, .pimg3 {
-  position:relative;
-  opacity: 0.70;
-  background-position:center;
-  background-size:cover;
-  background-repeat:no-repeat;
-  background-attachment:fixed;
+    position: relative;
+    opacity: 0.70;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
 }
-
-.pimg1 {
-  background-image:url('Download-Free-Pictures-3840x2160.jpg');
-  min-height:100%;
+.pimg1{
+    background-image: url("Billyzhajiang1.jpg");
+    min-height: 100%;
 }
-
 .pimg2 {
-  background-image:url('Mountain.jpg');
-  min-height:400px;
+    background-image: url("Collage_Chinese_Cuisine_by_User-EME.png");
+    min-height: 400px;
 }
-
-.pimg3 {
-  background-image:url('nature-images..webp');
-  min-height:400px;
+.pimg3{
+    background-image: url("Cuisines_of_China.png");
+    min-height: 400px;
 }
-
 .section {
-  text-align:center;
-  padding:50px 80px;
+    text-align: center;
+    padding: 50px 80px;
 }
-
-.section-light{
-  background-color:#f4f4f4;
-  color:#666;
+.section-light {
+    background-color: #f4f4f4;
+    color: #666;
 }
-
-.section-dark{
-  background-color:#282e34;
-  color:#ddd;
+.section-dark {
+    background-color: #282e34;
+    color: #ddd;
 }
-
 .ptext {
-  position:absolute;
-  top:50%;
-  width:100%;
-  text-align:center;
-  color:#000;
-  font-size:27px;
-  letter-spacing:8px;
-  text-transform:uppercase;
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    text-align: center;
+    color: #000;
+    font-size: 27px;
+    letter-spacing: 8px;
+    text-transform: uppercase;
 }
-
 .ptext .border {
-  background-color:#111;
-  color:#fff;
-  padding:20px;
+    background-color: #111;
+    color: #fff;
+    padding: 20px;
 }
-
-.ptext .border.trans {
-  background-color:transparent;
+.ptext .border .trans {
+    background-color: transparent;
 }
-
-@media(max-width:568px){
-  .pimg1, .pimg2, .pimg3 {
-    background-attachment:scroll;
-  }
+@media(max-width: 568px) {
+    .pimg1, .pimg2, .pimg3{
+         background-attachment: scroll;}
 }
-
-
